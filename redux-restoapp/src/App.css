@@ -1,0 +1,96 @@
+.App {
+  text-align: left;
+  padding-left: 10px;
+  background-color: #dde1e6;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  text-align: center;
+  background-color: #dde1e6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(68, 67, 67);
+  margin: 0 auto;
+}
+.cartItemContainer {
+  width: 100%;
+}
+button {
+  background-color: rgb(236, 154, 47);
+  background-repeat: no-repeat;
+  color: rgb(110, 102, 102);
+  font-size: medium;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  font-size: medium;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+  
+}
+
+Link,
+a {
+  color: rgb(85, 79, 79);
+  text-decoration: none;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.total {
+  width: 100%;
+  padding: 20px;
+}
+
+.cartMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cartHeader {
+  width: 100%;
+}
+
+.cartBox {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.qty {
+  width: 12%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

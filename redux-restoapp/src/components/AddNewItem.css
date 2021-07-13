@@ -1,0 +1,9 @@
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 10px;
+}
+
+input {
+  height: 20px;
+}

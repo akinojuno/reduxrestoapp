@@ -1,0 +1,24 @@
+.Menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: ; */
+}
+
+.Menu > h2 {
+  width: 100%;
+}
+
+.MenuFilter {
+  margin: 5%;
+  width: 100%;
+  /* padding: 10%; */
+}
+
+.ItemBox {
+  margin: 10px;
+  padding: 10px;
+}
